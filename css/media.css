@@ -17,10 +17,21 @@
     .header__hamburger {
         right: 17%;
     }
+    
 }
 @media (max-width: 768px) {
     .header__hamburger {
         right: 13%;
+    }
+    .header__hamburger-travel {
+        top: 32px;
+        display: block;
+    }
+    .header__nav-list {
+        display: none;
+    }  
+    .header__travel-social {
+        display: none;
     }
 }
 @media (max-width: 556px) {

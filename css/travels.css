@@ -1,0 +1,40 @@
+.travels__banner {
+    padding: 50px 0;
+}
+.travels__title {
+    font-family: "Helvetica-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--black-color);
+}
+.travels__descr {
+    font-family: "Helvetica-medium", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+.travels__banner-btn {
+    width: 200px;
+    height: 40px;
+    background-color: var(--black-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 40px var(--black-color);
+    font-family: "Helvetica-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+.travels__banner-btn:hover {
+    opacity: .8;
+}

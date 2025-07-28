@@ -18,9 +18,10 @@ a {
 }
 button {
     border: none;
+    cursor: pointer;
 }
 button:focus {
-    outline: 1px solid #00000000;
+    outline: 1px solid #00000000;    
 }
 input {
     border: none;
