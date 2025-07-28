@@ -1,0 +1,103 @@
+.modal {
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.modal__dialog {
+    width: 520px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 24px 2px;
+}
+.modal__content {
+    height: 500px;
+    padding: 0 20px;
+}
+.modal__head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal__title {
+    font-family: "Helvetica-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--black-color);
+}
+.modal__close {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 30%;
+    cursor: pointer;
+}
+.modal__close::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 20px;
+    height: 2px;
+    background-color: var(--black-color);
+}
+.modal__close::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 20px;
+    height: 2px;
+    background-color: var(--black-color);
+}
+.modal__banner {
+    background-color: var(--brown-color);
+    width: 100%;
+    border-radius: 1.5rem;
+    margin: 0 auto;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+.modal__img {
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--black-color);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.modal__banner-title {
+    font-family: "Helvetica-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #fff;
+    text-align: center;
+}
+.modal__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.modal__link {
+    font-family: "Helvetica-light", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--black-color);
+    text-align: center;
+}
+.modal__link:hover {
+    opacity: .3;
+}

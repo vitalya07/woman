@@ -1,0 +1,16 @@
+.footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer__list > li > a {
+   font-family: "Helvetica-light", sans-serif;
+   font-weight: 300;
+   font-size: 22px;
+   line-height: 120%;
+   color: var(--black-color);
+}
+.footer__list > li > a:hover {
+    opacity: .4;
+}

@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica-medium", sans-serif;
+    font-weight: 500;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .4s ease;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+}
+button:focus {
+    outline: 1px solid #00000000;
+}
+input {
+    border: none;
+}
+input:focus {
+    outline: 1px solid #00000000;
+}

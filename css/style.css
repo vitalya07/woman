@@ -1,0 +1,9 @@
+@import "fonts.css";
+@import "var.css";
+@import "normalize.css";
+@import "global.css";
+@import "header.css";
+@import 'menu.css';
+@import 'modal.css';
+@import 'footer.css';
+@import 'media.css';
