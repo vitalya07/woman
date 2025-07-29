@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", ()=> {
+    //Модальное окно на главной
     const modal = document.querySelector('.modal');
     const hamburger = document.querySelector('.header__hamburger');
     if(hamburger && modal) {
@@ -26,6 +27,8 @@ document.addEventListener("DOMContentLoaded", ()=> {
             }
         });
     }
+    //Модальное окно на главной
+    //Модальное окно для покупки продукта
     const headerTravels = document.querySelector('.header__travels');
   
     if(headerTravels) {
@@ -41,107 +44,8 @@ document.addEventListener("DOMContentLoaded", ()=> {
         headerClose.addEventListener('click', removeHamburger);
     }       
     
-    const travelsSwiper = document.querySelector('.travels__swiper');
-    const coversSwiper = document.querySelector('.covers__swiper');
-    const salaSwiper = document.querySelector('.sala__swiper');
-    if(travelsSwiper) {
-        new Swiper(".travels__swiper", {
-            slidesPerView: 2,
-            spaceBetween: 50, 
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            breakpoints: {
-                1280: {
-                    slidesPerView: 2,
-                },
-                1024: {
-                    slidesPerView: 2,
-                },
-                756: {
-               
-                    slidesPerView: 2,
-                },
-                556: {
-                    slidesPerView: 2,
-                },
-                280: {
-                    slidesPerView: 1,
-                }
-            }
-        });
-    }
-    if(coversSwiper) {
-        new Swiper(".covers__swiper", {
-            slidesPerView: 4,
-            spaceBetween: 50, 
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            breakpoints: {
-                1280: {
-                    slidesPerView: 4,
-                },
-                1024: {
-                    slidesPerView: 3,
-                },
-                756: {
-               
-                    slidesPerView: 2,
-                },
-                556: {
-                    slidesPerView: 2,
-                },
-                280: {
-                    slidesPerView: 1,
-                }
-            }
-        });
-    }
-    if(salaSwiper) {
-        new Swiper(".sala__swiper", {
-            slidesPerView: 4,
-            spaceBetween: 50, 
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            breakpoints: {
-                1280: {
-                    slidesPerView: 4,
-                },
-                1024: {
-                    slidesPerView: 3,
-                },
-                756: {
-               
-                    slidesPerView: 2,
-                },
-                556: {
-                    slidesPerView: 2,
-                },
-                280: {
-                    slidesPerView: 1,
-                }
-            }
-        });
-    }
     const product = document.querySelector('.product');
-if (product) {
+    if (product) {
     const productBtns = document.querySelectorAll('.sala__slide-btn');
     const productName = document.querySelector('.product__name');
 
@@ -184,7 +88,7 @@ if (product) {
             removeProductModal();
         }
     });
-    
+    //Модальное окно для покупки продукта
 }
 
 })
