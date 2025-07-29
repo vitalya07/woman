@@ -33,6 +33,13 @@
     .header__travel-social {
         display: none;
     }
+    .swiper-pagination {
+        display: block; /* показываем пагинацию */
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none; /* скрываем стрелки */
+    }
 }
 @media (max-width: 556px) {
     .header__hamburger {

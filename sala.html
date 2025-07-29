@@ -3,13 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>travels</title>
+    <title>Selling things</title>
     <link rel="stylesheet" href="css/splide.min.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="body__container">
+        <div class="product hide">
+            <div class="product__dialog">
+                <div class="product__content">
+                    <div class="product__head">
+                        <h2 class="product__ttile">Make a request</h2>
+                        <div class="product__close"></div>
+                    </div>
+                    <h2 class="product__name"></h2>
+                    <form action="#" class="product__form">
+                        <input type="hidden" name="product" id="product-input" value="">
+                        <input type="text" name="name" autocomplete="name" class="product__input" placeholder="Your name" required>
+                        <input type="phone" name="tel" autocomplete="tel" class="product__input" placeholder="Your tel" required>
+                        <button class="product__brn">To order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
         <header class="header header__travel">
             <div class="container">
                 <div class="header__travels">
@@ -64,44 +81,71 @@
             </div>
         </header>
         <main class="content">
-            <section class="travels__banner">
+            <section class="sala__banner">
                 <div class="container">
-                    <h1 class="travels__title">Travels</h1>
+                    <h1 class="travels__title">Selling things</h1>
                     <p class="travels__descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam accusamus numquam rem nulla blanditiis voluptatem aperiam ratione id laboriosam eum.</p>
                     <button class="travels__banner-btn">Перейти</button>
                 </div>            
             </section>
             <div class="splide-travels">
                 <div class="container">
-                    <div class="swiper travels__swiper">
-                        <!-- Additional required wrapper -->
+                    <div class="swiper sala__swiper">
                         <div class="swiper-wrapper">
-                            <!-- Slides -->
                             <div class="swiper-slide">
                                 <div class="splide__travel-item">
                                     <div class="splide__travel-img">
-                                        <img src="img/travel-photo.png" alt="travel" loading="lazy">
+                                        <img src="img/nar.webp" alt="travel" loading="lazy">
                                     </div>
+                                    <h2 class="splide__sala-name">Women's handbag</h2>
                                     <div class="splide__travel-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, voluptatibus?</div>
-                                    <a href="#" class="travel__slide-btn">Подробнее</a>
+                                    <div class="sala__price">Price: 80 $</div>
+                                    <div class="buttons">
+                                        <button class="travel__slide-btn sala__slide-btn" data-product="Women's handbag">Купить</button>
+                                        <a href="#" class="travel__slide-btn sala__slide-btn">Подробнее</a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="splide__travel-item">
                                     <div class="splide__travel-img">
-                                        <img src="img/travel-photo.png" alt="travel" loading="lazy">
+                                        <img src="img/nar.webp" alt="travel" loading="lazy">
                                     </div>
+                                    <h2 class="splide__sala-name">Women's handbag</h2>
                                     <div class="splide__travel-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, voluptatibus?</div>
-                                    <a href="#" class="travel__slide-btn">Подробнее</a>
+                                    <div class="sala__price">Price: 80 $</div>
+                                    <div class="buttons">
+                                        <button class="travel__slide-btn sala__slide-btn" data-product="Sunglasses">Купить</button>
+                                        <a href="#" class="travel__slide-btn sala__slide-btn">Подробнее</a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="splide__travel-item">
                                     <div class="splide__travel-img">
-                                        <img src="img/travel-photo.png" alt="travel" loading="lazy">
+                                        <img src="img/nar.webp" alt="travel" loading="lazy">
                                     </div>
+                                    <h2 class="splide__sala-name">Women's handbag</h2>
                                     <div class="splide__travel-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, voluptatibus?</div>
-                                    <a href="#" class="travel__slide-btn">Подробнее</a>
+                                    <div class="sala__price">Price: 80 $</div>
+                                    <div class="buttons">
+                                        <button class="travel__slide-btn sala__slide-btn" data-product="Blouse">Купить</button>
+                                        <a href="#" class="travel__slide-btn sala__slide-btn">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="splide__travel-item">
+                                    <div class="splide__travel-img">
+                                        <img src="img/nar.webp" alt="travel" loading="lazy">
+                                    </div>
+                                    <h2 class="splide__sala-name">Women's handbag</h2>
+                                    <div class="splide__travel-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, voluptatibus?</div>
+                                    <div class="sala__price">Price: 80 $</div>
+                                    <div class="buttons">
+                                        <button class="travel__slide-btn sala__slide-btn" data-product="Hoodies">Купить</button>
+                                        <a href="#" class="travel__slide-btn sala__slide-btn">Подробнее</a>
+                                    </div>                                    
                                 </div>
                             </div>
                         </div>

@@ -1,5 +1,11 @@
 .travels__banner {
     padding: 50px 0;
+    background-image: url('../img/travel.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
 }
 .travels__title {
     font-family: "Helvetica-Bold", sans-serif;
@@ -8,7 +14,7 @@
     line-height: 120%;
     text-align: center;
     margin-bottom: 20px;
-    color: var(--black-color);
+    color: #fff;
 }
 .travels__descr {
     font-family: "Helvetica-medium", sans-serif;
@@ -16,7 +22,7 @@
     font-size: 25px;
     line-height: 120%;
     text-align: center;
-    color: var(--black-color);
+    color: #fff;
     margin-bottom: 20px;
 }
 .travels__banner-btn {

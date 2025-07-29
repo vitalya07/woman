@@ -1,0 +1,121 @@
+.sala__banner {
+    padding: 50px 0;
+    background-image: url('../img/sale.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.splide__travel-item {
+    padding: 20px;
+}
+.sala__price {
+    font-family: "Helvetica-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--black-color);
+    margin-bottom: 15px;
+}
+.splide__sala-name {
+    font-family: "Helvetica-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: var(--black-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+.product {
+    width: 100%;
+    height: 100%;
+    background-color: #00000060;
+    position: fixed;
+    z-index: 20;
+}
+.product__dialog {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #fff;
+}
+.product__content {
+    padding: 20px;
+    height: 500px;
+}
+.product__head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.product__ttile {
+    font-family: "Helvetica-bold", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;    
+    color: var(--black-color);
+}
+.product__close {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.product__close::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    border-radius: 20px;
+    background-color: var(--black-color);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.product__close::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    border-radius: 20px;
+    background-color: var(--black-color);
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.product__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.product__input {
+    width: 100%;
+    border-bottom: 1px solid var(--black-color);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.product__brn {
+    width: 70%;
+    height: 40px;
+    background-color: var(--black-color);
+    font-family: "Helvetica-bold", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #fff;
+}
+.product__brn:hover {
+    opacity: .6;
+}
+.product__name {
+    font-family: "Helvetica-bold", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    color: var(--black-color);
+    text-align: center;
+}

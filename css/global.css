@@ -24,3 +24,12 @@
 .menu-open .header__nav-mobile {
     right: 0;
 }
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.swiper-pagination {
+    display: none; 
+}
