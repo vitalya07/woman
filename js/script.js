@@ -58,10 +58,10 @@ document.addEventListener("DOMContentLoaded", ()=> {
             },
             breakpoints: {
                 1280: {
-                    slidesPerView: 4,
+                    slidesPerView: 2,
                 },
                 1024: {
-                    slidesPerView: 3,
+                    slidesPerView: 2,
                 },
                 756: {
                
