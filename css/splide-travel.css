@@ -1,6 +1,13 @@
 .splide__travel {
     padding: 50px 0;    
 }
+.travels-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
 .splide-travels {
     padding: 50px 0;
 }
@@ -52,6 +59,8 @@
 }
 .splide__travel-item {
     position: relative;
+    max-width: 300px;
+    min-height: 450px;
 }
 .splide__travel-item::after {
     content: "";
